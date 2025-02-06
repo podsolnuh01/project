@@ -1,0 +1,254 @@
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\user\Desktop\Арсений Арефьев\project-main\Пользавательский интерфейс\main.exe, файл: d:\codeblocks\mingw\include\txlib.h, строка: 13396, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 2.00064e+009 больше, чем y1 = -2.93744e+008. Текст выводиться не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005062FC (32-bit), Flags: CMdRe0, Thread: 0x920 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042024E in C:\Users\user\Desktop\Арсений Арефьев\project-main\Пользавательский интерфейс\main.exe: txDrawText() at d:/codeblocks/mingw/include/txlib.h (13396)
+
+# 1 0x0044B4A9 in C:\Users\user\Desktop\Арсений Арефьев\project-main\Пользавательский интерфейс\main.exe: draw() at d:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x0042BF04 in C:\Users\user\Desktop\Арсений Арефьев\project-main\Пользавательский интерфейс\main.exe: main() at C:/Users/user/Desktop/Арсений Арефьев/project-main/Пользавательский интерфейс/main.cpp (54):
+
+     52:             for(int i=0; i<=4; i++)
+     53:             {
+=>   54:                 btn[i].draw();
+     55:             }
+     56: 
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC) at d:\codeblocks\mingw\include\txlib.h (13396):
+
+  13394:         {
+  13395: $       SetLastError (ERROR_INVALID_DATA);
+=>13396: $       TX_ERROR ("Параметр y0 = %g больше, чем y1 = %g. Текст выводиться не будет.", y0, y1);
+  13397:         }
+  13398: 
+
+# 1 in void Button::draw() at C:\Users\user\Desktop\Арсений Арефьев\project-main\Пользавательский интерфейс\main.cpp (20):
+
+     18:             Win32::RoundRect (txDC(), x, y, x+w, y+h, 30, 30);
+     19:             txSelectFont("Times New Roman", 30);
+=>   20:             txDrawText(x, y, x+w, y+h, text);
+     21:         }
+     22:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\codeblocks\mingw\include\txlib.h
+Compiled:	Feb  4 2025 19:18:30, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Feb 04 2025 19:19:12
+
+Run file:	C:\Users\user\Desktop\Арсений Арефьев\project-main\Пользавательский интерфейс\main.exe
+Directory:	C:\Users\user\Desktop\Арсений Арефьев\project-main\Пользавательский интерфейс
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\user\Desktop\Арсений Арефьев\project\main.exe, файл: d:\codeblocks\mingw\include\txlib.h, строка: 13396, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 2.00064e+009 больше, чем y1 = -2.93744e+008. Текст выводиться не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005062FC (32-bit), Flags: CMdRe0, Thread: 0x1F88 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042024E in C:\Users\user\Desktop\Арсений Арефьев\project\main.exe: txDrawText() at d:/codeblocks/mingw/include/txlib.h (13396)
+
+# 1 0x0044B4A9 in C:\Users\user\Desktop\Арсений Арефьев\project\main.exe: draw() at d:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x0042BF04 in C:\Users\user\Desktop\Арсений Арефьев\project\main.exe: main() at C:/Users/user/Desktop/Арсений Арефьев/project-main/Пользавательский интерфейс/main.cpp (54)
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC) at d:\codeblocks\mingw\include\txlib.h (13396):
+
+  13394:         {
+  13395: $       SetLastError (ERROR_INVALID_DATA);
+=>13396: $       TX_ERROR ("Параметр y0 = %g больше, чем y1 = %g. Текст выводиться не будет.", y0, y1);
+  13397:         }
+  13398: 
+
+# 1 in void Button::draw() at C:\Users\user\Desktop\Арсений Арефьев\project-main\Пользавательский интерфейс\main.cpp (20):
+
+
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\codeblocks\mingw\include\txlib.h
+Compiled:	Feb  4 2025 19:18:30, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Feb 06 2025 18:12:08
+
+Run file:	C:\Users\user\Desktop\Арсений Арефьев\project\main.exe
+Directory:	C:\Users\user\Desktop\Арсений Арефьев\project
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\user\Desktop\Арсений Арефьев\project\main.exe, файл: d:\codeblocks\mingw\include\txlib.h, строка: 13396, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 2.00064e+009 больше, чем y1 = -2.93744e+008. Текст выводиться не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005062FC (32-bit), Flags: CMdRe0, Thread: 0x988 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042024E in C:\Users\user\Desktop\Арсений Арефьев\project\main.exe: txDrawText() at d:/codeblocks/mingw/include/txlib.h (13396)
+
+# 1 0x0044B459 in C:\Users\user\Desktop\Арсений Арефьев\project\main.exe: draw() at d:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x0042BEF2 in C:\Users\user\Desktop\Арсений Арефьев\project\main.exe: main() at C:/Users/user/Desktop/Арсений Арефьев/project/main.cpp (54):
+
+     52:             for(int i=0; i<=4; i++)
+     53:             {
+=>   54:                 btn[i].draw();
+     55:             }
+     56: 
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC) at d:\codeblocks\mingw\include\txlib.h (13396):
+
+  13394:         {
+  13395: $       SetLastError (ERROR_INVALID_DATA);
+=>13396: $       TX_ERROR ("Параметр y0 = %g больше, чем y1 = %g. Текст выводиться не будет.", y0, y1);
+  13397:         }
+  13398: 
+
+# 1 in void Button::draw() at C:\Users\user\Desktop\Арсений Арефьев\project\main.cpp (20):
+
+     18:             Win32::RoundRect (txDC(), x, y, x+w, y+h, 30, 30);
+     19:             txSelectFont("Times New Roman", 30);
+=>   20:             txDrawText(x, y, x+w, y+h, text);
+     21:         }
+     22:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\codeblocks\mingw\include\txlib.h
+Compiled:	Feb  6 2025 18:18:08, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Feb 06 2025 18:19:29
+
+Run file:	C:\Users\user\Desktop\Арсений Арефьев\project\main.exe
+Directory:	C:\Users\user\Desktop\Арсений Арефьев\project
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\user\Desktop\Арсений Арефьев\project\main.exe, файл: d:\codeblocks\mingw\include\txlib.h, строка: 13396, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 2.00064e+009 больше, чем y1 = -2.93744e+008. Текст выводиться не будет.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005062FC (32-bit), Flags: CMdRe0, Thread: 0x988 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042024E in C:\Users\user\Desktop\Арсений Арефьев\project\main.exe: txDrawText() at d:/codeblocks/mingw/include/txlib.h (13396)
+
+# 1 0x0044B459 in C:\Users\user\Desktop\Арсений Арефьев\project\main.exe: draw() at d:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x0042BEF2 in C:\Users\user\Desktop\Арсений Арефьев\project\main.exe: main() at C:/Users/user/Desktop/Арсений Арефьев/project/main.cpp (54):
+
+     52:             for(int i=0; i<=4; i++)
+     53:             {
+=>   54:                 btn[i].draw();
+     55:             }
+     56: 
+
+--------------------------------------------------
+Стек вызовов TX:
+
+# 0 in bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC) at d:\codeblocks\mingw\include\txlib.h (13396):
+
+  13394:         {
+  13395: $       SetLastError (ERROR_INVALID_DATA);
+=>13396: $       TX_ERROR ("Параметр y0 = %g больше, чем y1 = %g. Текст выводиться не будет.", y0, y1);
+  13397:         }
+  13398: 
+
+# 1 in void Button::draw() at C:\Users\user\Desktop\Арсений Арефьев\project\main.cpp (20):
+
+     18:             Win32::RoundRect (txDC(), x, y, x+w, y+h, 30, 30);
+     19:             txSelectFont("Times New Roman", 30);
+=>   20:             txDrawText(x, y, x+w, y+h, text);
+     21:         }
+     22:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\codeblocks\mingw\include\txlib.h
+Compiled:	Feb  6 2025 18:18:08, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Feb 06 2025 18:19:29
+
+Run file:	C:\Users\user\Desktop\Арсений Арефьев\project\main.exe
+Directory:	C:\Users\user\Desktop\Арсений Арефьев\project
+
+--------------------------------------------------

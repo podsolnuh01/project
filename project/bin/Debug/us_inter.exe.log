@@ -1,0 +1,517 @@
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe, файл: d:\codeblocks\mingw\include\txlib.h, строка: 13396, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 2.00064e+009 больше, чем y1 = -2.93744e+008. Текст выводиться не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x1B34 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00414F83 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: txDrawText() at d:/codeblocks/mingw/include/txlib.h (13396)
+
+# 1 0x0043BAA9 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: draw() at d:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x0041C73B in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: main() at C:/Users/user/Desktop/Арсений Арефьев/project/main.cpp (54):
+
+     52:             for(int i=0; i<=4; i++)
+     53:             {
+=>   54:                 btn[i].draw();
+     55:             }
+     56: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\codeblocks\mingw\include\txlib.h
+Compiled:	Feb  6 2025 18:22:35, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Feb 06 2025 18:22:56
+
+Run file:	C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe
+Directory:	C:\Users\user\Desktop\Арсений Арефьев\project
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe, файл: d:\codeblocks\mingw\include\txlib.h, строка: 13396, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 2.00064e+009 больше, чем y1 = -2.93744e+008. Текст выводиться не будет.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x1B88 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00414F83 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: txDrawText() at d:/codeblocks/mingw/include/txlib.h (13396)
+
+# 1 0x0043BAA9 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: draw() at d:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x0041C73B in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: main() at C:/Users/user/Desktop/Арсений Арефьев/project/main.cpp (54):
+
+     52:             for(int i=0; i<=4; i++)
+     53:             {
+=>   54:                 btn[i].draw();
+     55:             }
+     56: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\codeblocks\mingw\include\txlib.h
+Compiled:	Feb  6 2025 18:22:35, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Feb 06 2025 18:25:50
+
+Run file:	C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe
+Directory:	C:\Users\user\Desktop\Арсений Арефьев\project
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe, файл: d:\codeblocks\mingw\include\txlib.h, строка: 13396, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 2.00064e+009 больше, чем y1 = -2.93744e+008. Текст выводиться не будет.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x1B88 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00414F83 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: txDrawText() at d:/codeblocks/mingw/include/txlib.h (13396)
+
+# 1 0x0043BAA9 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: draw() at d:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x0041C73B in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: main() at C:/Users/user/Desktop/Арсений Арефьев/project/main.cpp (54):
+
+     52:             for(int i=0; i<=4; i++)
+     53:             {
+=>   54:                 btn[i].draw();
+     55:             }
+     56: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\codeblocks\mingw\include\txlib.h
+Compiled:	Feb  6 2025 18:22:35, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Feb 06 2025 18:25:51
+
+Run file:	C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe
+Directory:	C:\Users\user\Desktop\Арсений Арефьев\project
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe, файл: d:\codeblocks\mingw\include\txlib.h, строка: 13396, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 2.00064e+009 больше, чем y1 = -2.93744e+008. Текст выводиться не будет.
+
+#3: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x1B88 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00414F83 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: txDrawText() at d:/codeblocks/mingw/include/txlib.h (13396)
+
+# 1 0x0043BAA9 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: draw() at d:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x0041C73B in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: main() at C:/Users/user/Desktop/Арсений Арефьев/project/main.cpp (54):
+
+     52:             for(int i=0; i<=4; i++)
+     53:             {
+=>   54:                 btn[i].draw();
+     55:             }
+     56: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\codeblocks\mingw\include\txlib.h
+Compiled:	Feb  6 2025 18:22:35, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Feb 06 2025 18:25:51
+
+Run file:	C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe
+Directory:	C:\Users\user\Desktop\Арсений Арефьев\project
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe, файл: d:\codeblocks\mingw\include\txlib.h, строка: 13396, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 2.00064e+009 больше, чем y1 = -2.93744e+008. Текст выводиться не будет.
+
+#4: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x1B88 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00414F83 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: txDrawText() at d:/codeblocks/mingw/include/txlib.h (13396)
+
+# 1 0x0043BAA9 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: draw() at d:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x0041C73B in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: main() at C:/Users/user/Desktop/Арсений Арефьев/project/main.cpp (54):
+
+     52:             for(int i=0; i<=4; i++)
+     53:             {
+=>   54:                 btn[i].draw();
+     55:             }
+     56: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\codeblocks\mingw\include\txlib.h
+Compiled:	Feb  6 2025 18:22:35, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Feb 06 2025 18:25:50
+
+Run file:	C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe
+Directory:	C:\Users\user\Desktop\Арсений Арефьев\project
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe, файл: d:\codeblocks\mingw\include\txlib.h, строка: 13396, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 2.00064e+009 больше, чем y1 = -2.93744e+008. Текст выводиться не будет.
+
+#5: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x1B88 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00414F83 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: txDrawText() at d:/codeblocks/mingw/include/txlib.h (13396)
+
+# 1 0x0043BAA9 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: draw() at d:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x0041C73B in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: main() at C:/Users/user/Desktop/Арсений Арефьев/project/main.cpp (54):
+
+     52:             for(int i=0; i<=4; i++)
+     53:             {
+=>   54:                 btn[i].draw();
+     55:             }
+     56: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\codeblocks\mingw\include\txlib.h
+Compiled:	Feb  6 2025 18:22:35, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Feb 06 2025 18:25:51
+
+Run file:	C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe
+Directory:	C:\Users\user\Desktop\Арсений Арефьев\project
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe, файл: d:\codeblocks\mingw\include\txlib.h, строка: 13396, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 2.00064e+009 больше, чем y1 = -2.93744e+008. Текст выводиться не будет.
+
+#6: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x1B88 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00414F83 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: txDrawText() at d:/codeblocks/mingw/include/txlib.h (13396)
+
+# 1 0x0043BAA9 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: draw() at d:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x0041C73B in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: main() at C:/Users/user/Desktop/Арсений Арефьев/project/main.cpp (54):
+
+     52:             for(int i=0; i<=4; i++)
+     53:             {
+=>   54:                 btn[i].draw();
+     55:             }
+     56: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\codeblocks\mingw\include\txlib.h
+Compiled:	Feb  6 2025 18:22:35, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Feb 06 2025 18:25:51
+
+Run file:	C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe
+Directory:	C:\Users\user\Desktop\Арсений Арефьев\project
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe, файл: d:\codeblocks\mingw\include\txlib.h, строка: 13396, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 2.00064e+009 больше, чем y1 = -2.93744e+008. Текст выводиться не будет.
+
+#7: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x1B88 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00414F83 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: txDrawText() at d:/codeblocks/mingw/include/txlib.h (13396)
+
+# 1 0x0043BAA9 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: draw() at d:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x0041C73B in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: main() at C:/Users/user/Desktop/Арсений Арефьев/project/main.cpp (54):
+
+     52:             for(int i=0; i<=4; i++)
+     53:             {
+=>   54:                 btn[i].draw();
+     55:             }
+     56: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\codeblocks\mingw\include\txlib.h
+Compiled:	Feb  6 2025 18:22:35, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Feb 06 2025 18:25:51
+
+Run file:	C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe
+Directory:	C:\Users\user\Desktop\Арсений Арефьев\project
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe, файл: d:\codeblocks\mingw\include\txlib.h, строка: 13396, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 2.00064e+009 больше, чем y1 = -2.93744e+008. Текст выводиться не будет.
+
+#8: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x1B88 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00414F83 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: txDrawText() at d:/codeblocks/mingw/include/txlib.h (13396)
+
+# 1 0x0043BAA9 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: draw() at d:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x0041C73B in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: main() at C:/Users/user/Desktop/Арсений Арефьев/project/main.cpp (54):
+
+     52:             for(int i=0; i<=4; i++)
+     53:             {
+=>   54:                 btn[i].draw();
+     55:             }
+     56: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\codeblocks\mingw\include\txlib.h
+Compiled:	Feb  6 2025 18:22:35, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Feb 06 2025 18:25:51
+
+Run file:	C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe
+Directory:	C:\Users\user\Desktop\Арсений Арефьев\project
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe, файл: d:\codeblocks\mingw\include\txlib.h, строка: 13396, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 2.00064e+009 больше, чем y1 = -2.93744e+008. Текст выводиться не будет.
+
+#9: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x1B88 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00414F83 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: txDrawText() at d:/codeblocks/mingw/include/txlib.h (13396)
+
+# 1 0x0043BAA9 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: draw() at d:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x0041C73B in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: main() at C:/Users/user/Desktop/Арсений Арефьев/project/main.cpp (54):
+
+     52:             for(int i=0; i<=4; i++)
+     53:             {
+=>   54:                 btn[i].draw();
+     55:             }
+     56: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\codeblocks\mingw\include\txlib.h
+Compiled:	Feb  6 2025 18:22:35, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Feb 06 2025 18:25:51
+
+Run file:	C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe
+Directory:	C:\Users\user\Desktop\Арсений Арефьев\project
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe, файл: d:\codeblocks\mingw\include\txlib.h, строка: 13396, функция: bool {anonymous}::TX::txDrawText(double, double, double, double, const char*, unsigned int, HDC),
+
+Сообщение: Параметр y0 = 2.00064e+009 больше, чем y1 = -2.93744e+008. Текст выводиться не будет.
+
+#10: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRe0, Thread: 0x1B88 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00414F83 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: txDrawText() at d:/codeblocks/mingw/include/txlib.h (13396)
+
+# 1 0x0043BAA9 in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: draw() at d:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x0041C73B in C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe: main() at C:/Users/user/Desktop/Арсений Арефьев/project/main.cpp (54):
+
+     52:             for(int i=0; i<=4; i++)
+     53:             {
+=>   54:                 btn[i].draw();
+     55:             }
+     56: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	d:\codeblocks\mingw\include\txlib.h
+Compiled:	Feb  6 2025 18:22:35, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Feb 06 2025 18:25:51
+
+Run file:	C:\Users\user\Desktop\Арсений Арефьев\project\bin\Debug\us_inter.exe
+Directory:	C:\Users\user\Desktop\Арсений Арефьев\project
+
+--------------------------------------------------
